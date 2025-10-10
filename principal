@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Página Web - Proyecto Escolar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #f4f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #4a6fa5;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      margin: 1rem 0;
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #333;
+      color: white;
+      margin-top: 3rem;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>¡Hola! Soy [Tu Nombre]</h1>
+    <p>Este es mi proyecto escolar de página web responsive</p>
+  </header>
+  <main>
+    <h2>Sobre este proyecto</h2>
+    <p>Aquí puedes escribir lo que quieras: tu presentación, objetivo del proyecto, lo que aprendiste, etc.</p>
+    <p>Esta página se ve bien en celular, tablet y computadora ✅</p>
+  </main>
+  <footer>
+    <p>Hecho con ❤️ para la clase de [Nombre de la materia] - 2025</p>
+  </footer>
+</body>
+</html>
