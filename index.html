@@ -163,6 +163,66 @@
         margin: 0.5rem 0;
       }
     }
+
+    /* --- RESPONSIVE PARA MÓVIL --- */
+@media (max-width: 768px) {
+  .menu-category {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .menu-category img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .hero {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+
+  .hero-content {
+    max-width: 100% !important;
+    padding: 1rem 0 !important;
+  }
+
+  .hero img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  section {
+    padding: 2rem 1rem !important;
+  }
+
+  h1, h2 {
+    font-size: 2rem !important;
+  }
+
+  .btn {
+    width: 100% !important;
+    max-width: 300px !important;
+    margin: 0.5rem auto !important;
+  }
+
+  nav ul {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  nav a {
+    margin: 0.5rem 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  /* Evitar scroll horizontal */
+  body {
+    overflow-x: hidden !important;
+  }
+}
   </style>
 </head>
 <body>
@@ -188,7 +248,7 @@
       <p>Sumérgete en un mundo de sabores exquisitos y originales que deleitarán tu paladar. ¡Descubre platos únicos y disfruta de momentos especiales con nosotros!</p>
       <button class="btn" onclick="document.getElementById('menus').scrollIntoView({behavior: 'smooth'})">Ver Menú</button>
     </div>
-    <img src="pd2.jpg" alt="Plato gourmet">
+    <img src="images/pd2.jpg" alt="Plato gourmet">
   </section>
 
   <!-- SECCIÓN MENÚS -->
@@ -197,7 +257,7 @@
 
   <!-- MENÚ 1: CATA DE SABORES -->
   <div class="menu-category" style="display: flex; gap: 2rem; align-items: center; margin-bottom: 2rem; background: #F5E6DD; padding: 1.5rem; border-radius: 10px;">
-    <img src="fpp.jpg" alt="Café Arábica" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="images/fpp.jpg" alt="Café Arábica" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <div style="flex: 1;">
       <h3>☕ Cata de Sabores — $80</h3>
       <div class="menu-item">
@@ -217,7 +277,7 @@
 
   <!-- MENÚ 2: CUMPLEAÑOS ESPECIAL -->
   <div class="menu-category" style="display: flex; gap: 2rem; align-items: center; margin-bottom: 2rem; background: #F5E6DD; padding: 1.5rem; border-radius: 10px;">
-    <img src="pass.jpg" alt="Pastel de cumpleaños" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="images/pass.jpg" alt="Pastel de cumpleaños" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <div style="flex: 1;">
       <h3>🎂 Cumpleaños Especial — $120</h3>
       <div class="menu-item">
@@ -237,7 +297,7 @@
 
   <!-- MENÚ 3: DESCUENTOS FESTIVOS -->
   <div class="menu-category" style="display: flex; gap: 2rem; align-items: center; background: #F5E6DD; padding: 1.5rem; border-radius: 10px;">
-    <img src="brow.png" alt="Oferta festiva" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="images/brow.png" alt="Oferta festiva" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <div style="flex: 1;">
       <h3>🎉 Descuentos Festivos — $50</h3>
       <div class="menu-item">
@@ -258,7 +318,7 @@
 
 <!-- SECCIÓN OFERTAS -->
 <section id="ofertas" style="background: #F5E6DD; color: #6B4035; padding: 3rem 2rem;">
-  <img src="ofer.jpg" alt="Ofertas Festivas" style="width: 100%; max-width: 800px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 1rem auto; display: block;">
+  <img src="images/ofer.jpg" alt="Ofertas Festivas" style="width: 100%; max-width: 800px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 1rem auto; display: block;">
 
   <p>¡No te pierdas nuestras promociones exclusivas!</p>
   <p>• 2x1 en cafés especiales los lunes<br>
